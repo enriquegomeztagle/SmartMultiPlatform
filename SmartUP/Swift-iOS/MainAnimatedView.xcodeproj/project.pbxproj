@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0630784929CB864900A4D3A8 /* MainAnimatedViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0630784829CB864900A4D3A8 /* MainAnimatedViewApp.swift */; };
+		0630784B29CB864900A4D3A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0630784A29CB864900A4D3A8 /* ContentView.swift */; };
+		0630784D29CB864C00A4D3A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0630784C29CB864C00A4D3A8 /* Assets.xcassets */; };
+		0630785029CB864C00A4D3A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0630784F29CB864C00A4D3A8 /* Preview Assets.xcassets */; };
+		0630785A29CB864D00A4D3A8 /* MainAnimatedViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0630785929CB864D00A4D3A8 /* MainAnimatedViewTests.swift */; };
+		0630786429CB864D00A4D3A8 /* MainAnimatedViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0630786329CB864D00A4D3A8 /* MainAnimatedViewUITests.swift */; };
+		0630786629CB864D00A4D3A8 /* MainAnimatedViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0630786529CB864D00A4D3A8 /* MainAnimatedViewUITestsLaunchTests.swift */; };
+		067A8A8E29CCCCEA006BB47E /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A7C29CCCCE8006BB47E /* Poppins-MediumItalic.ttf */; };
+		067A8A8F29CCCCEA006BB47E /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A7C29CCCCE8006BB47E /* Poppins-MediumItalic.ttf */; };
+		067A8A9029CCCCEA006BB47E /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A7C29CCCCE8006BB47E /* Poppins-MediumItalic.ttf */; };
+		067A8A9129CCCCEA006BB47E /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A7D29CCCCE8006BB47E /* Poppins-Black.ttf */; };
+		067A8A9229CCCCEA006BB47E /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A7D29CCCCE8006BB47E /* Poppins-Black.ttf */; };
+		067A8A9329CCCCEA006BB47E /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A7D29CCCCE8006BB47E /* Poppins-Black.ttf */; };
+		067A8A9429CCCCEA006BB47E /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A7E29CCCCE9006BB47E /* Poppins-SemiBold.ttf */; };
+		067A8A9529CCCCEA006BB47E /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A7E29CCCCE9006BB47E /* Poppins-SemiBold.ttf */; };
+		067A8A9629CCCCEA006BB47E /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A7E29CCCCE9006BB47E /* Poppins-SemiBold.ttf */; };
+		067A8A9729CCCCEA006BB47E /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A7F29CCCCE9006BB47E /* Poppins-Light.ttf */; };
+		067A8A9829CCCCEA006BB47E /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A7F29CCCCE9006BB47E /* Poppins-Light.ttf */; };
+		067A8A9929CCCCEA006BB47E /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A7F29CCCCE9006BB47E /* Poppins-Light.ttf */; };
+		067A8A9A29CCCCEA006BB47E /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8029CCCCE9006BB47E /* Poppins-Thin.ttf */; };
+		067A8A9B29CCCCEA006BB47E /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8029CCCCE9006BB47E /* Poppins-Thin.ttf */; };
+		067A8A9C29CCCCEA006BB47E /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8029CCCCE9006BB47E /* Poppins-Thin.ttf */; };
+		067A8A9D29CCCCEA006BB47E /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8129CCCCE9006BB47E /* Poppins-ExtraLight.ttf */; };
+		067A8A9E29CCCCEA006BB47E /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8129CCCCE9006BB47E /* Poppins-ExtraLight.ttf */; };
+		067A8A9F29CCCCEA006BB47E /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8129CCCCE9006BB47E /* Poppins-ExtraLight.ttf */; };
+		067A8AA029CCCCEA006BB47E /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8229CCCCE9006BB47E /* Poppins-SemiBoldItalic.ttf */; };
+		067A8AA129CCCCEA006BB47E /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8229CCCCE9006BB47E /* Poppins-SemiBoldItalic.ttf */; };
+		067A8AA229CCCCEA006BB47E /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8229CCCCE9006BB47E /* Poppins-SemiBoldItalic.ttf */; };
+		067A8AA329CCCCEA006BB47E /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8329CCCCE9006BB47E /* Poppins-BlackItalic.ttf */; };
+		067A8AA429CCCCEA006BB47E /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8329CCCCE9006BB47E /* Poppins-BlackItalic.ttf */; };
+		067A8AA529CCCCEA006BB47E /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8329CCCCE9006BB47E /* Poppins-BlackItalic.ttf */; };
+		067A8AA629CCCCEA006BB47E /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8429CCCCE9006BB47E /* Poppins-ThinItalic.ttf */; };
+		067A8AA729CCCCEA006BB47E /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8429CCCCE9006BB47E /* Poppins-ThinItalic.ttf */; };
+		067A8AA829CCCCEA006BB47E /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8429CCCCE9006BB47E /* Poppins-ThinItalic.ttf */; };
+		067A8AA929CCCCEA006BB47E /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8529CCCCE9006BB47E /* Poppins-Regular.ttf */; };
+		067A8AAA29CCCCEA006BB47E /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8529CCCCE9006BB47E /* Poppins-Regular.ttf */; };
+		067A8AAB29CCCCEA006BB47E /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8529CCCCE9006BB47E /* Poppins-Regular.ttf */; };
+		067A8AAC29CCCCEA006BB47E /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8629CCCCE9006BB47E /* Poppins-Italic.ttf */; };
+		067A8AAD29CCCCEA006BB47E /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8629CCCCE9006BB47E /* Poppins-Italic.ttf */; };
+		067A8AAE29CCCCEA006BB47E /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8629CCCCE9006BB47E /* Poppins-Italic.ttf */; };
+		067A8AAF29CCCCEA006BB47E /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8729CCCCE9006BB47E /* Poppins-LightItalic.ttf */; };
+		067A8AB029CCCCEA006BB47E /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8729CCCCE9006BB47E /* Poppins-LightItalic.ttf */; };
+		067A8AB129CCCCEA006BB47E /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8729CCCCE9006BB47E /* Poppins-LightItalic.ttf */; };
+		067A8AB229CCCCEA006BB47E /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8829CCCCEA006BB47E /* Poppins-Medium.ttf */; };
+		067A8AB329CCCCEA006BB47E /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8829CCCCEA006BB47E /* Poppins-Medium.ttf */; };
+		067A8AB429CCCCEA006BB47E /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8829CCCCEA006BB47E /* Poppins-Medium.ttf */; };
+		067A8AB529CCCCEA006BB47E /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8929CCCCEA006BB47E /* Poppins-ExtraBoldItalic.ttf */; };
+		067A8AB629CCCCEA006BB47E /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8929CCCCEA006BB47E /* Poppins-ExtraBoldItalic.ttf */; };
+		067A8AB729CCCCEA006BB47E /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8929CCCCEA006BB47E /* Poppins-ExtraBoldItalic.ttf */; };
+		067A8AB829CCCCEA006BB47E /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8A29CCCCEA006BB47E /* Poppins-Bold.ttf */; };
+		067A8AB929CCCCEA006BB47E /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8A29CCCCEA006BB47E /* Poppins-Bold.ttf */; };
+		067A8ABA29CCCCEA006BB47E /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8A29CCCCEA006BB47E /* Poppins-Bold.ttf */; };
+		067A8ABB29CCCCEA006BB47E /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8B29CCCCEA006BB47E /* Poppins-ExtraBold.ttf */; };
+		067A8ABC29CCCCEA006BB47E /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8B29CCCCEA006BB47E /* Poppins-ExtraBold.ttf */; };
+		067A8ABD29CCCCEA006BB47E /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8B29CCCCEA006BB47E /* Poppins-ExtraBold.ttf */; };
+		067A8ABE29CCCCEA006BB47E /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8C29CCCCEA006BB47E /* Poppins-ExtraLightItalic.ttf */; };
+		067A8ABF29CCCCEA006BB47E /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8C29CCCCEA006BB47E /* Poppins-ExtraLightItalic.ttf */; };
+		067A8AC029CCCCEA006BB47E /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8C29CCCCEA006BB47E /* Poppins-ExtraLightItalic.ttf */; };
+		067A8AC129CCCCEA006BB47E /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8D29CCCCEA006BB47E /* Poppins-BoldItalic.ttf */; };
+		067A8AC229CCCCEA006BB47E /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8D29CCCCEA006BB47E /* Poppins-BoldItalic.ttf */; };
+		067A8AC329CCCCEA006BB47E /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067A8A8D29CCCCEA006BB47E /* Poppins-BoldItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0630785629CB864D00A4D3A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0630783D29CB864900A4D3A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0630784429CB864900A4D3A8;
+			remoteInfo = MainAnimatedView;
+		};
+		0630786029CB864D00A4D3A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0630783D29CB864900A4D3A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0630784429CB864900A4D3A8;
+			remoteInfo = MainAnimatedView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0630784529CB864900A4D3A8 /* MainAnimatedView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainAnimatedView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0630784829CB864900A4D3A8 /* MainAnimatedViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAnimatedViewApp.swift; sourceTree = "<group>"; };
+		0630784A29CB864900A4D3A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0630784C29CB864C00A4D3A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0630784F29CB864C00A4D3A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0630785529CB864D00A4D3A8 /* MainAnimatedViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MainAnimatedViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0630785929CB864D00A4D3A8 /* MainAnimatedViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAnimatedViewTests.swift; sourceTree = "<group>"; };
+		0630785F29CB864D00A4D3A8 /* MainAnimatedViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MainAnimatedViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0630786329CB864D00A4D3A8 /* MainAnimatedViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAnimatedViewUITests.swift; sourceTree = "<group>"; };
+		0630786529CB864D00A4D3A8 /* MainAnimatedViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAnimatedViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		067A8A7C29CCCCE8006BB47E /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		067A8A7D29CCCCE8006BB47E /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		067A8A7E29CCCCE9006BB47E /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		067A8A7F29CCCCE9006BB47E /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		067A8A8029CCCCE9006BB47E /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		067A8A8129CCCCE9006BB47E /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		067A8A8229CCCCE9006BB47E /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		067A8A8329CCCCE9006BB47E /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		067A8A8429CCCCE9006BB47E /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		067A8A8529CCCCE9006BB47E /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		067A8A8629CCCCE9006BB47E /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		067A8A8729CCCCE9006BB47E /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		067A8A8829CCCCEA006BB47E /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		067A8A8929CCCCEA006BB47E /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		067A8A8A29CCCCEA006BB47E /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		067A8A8B29CCCCEA006BB47E /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		067A8A8C29CCCCEA006BB47E /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		067A8A8D29CCCCEA006BB47E /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		067A8AC429CCCDCB006BB47E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0630784229CB864900A4D3A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0630785229CB864D00A4D3A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0630785C29CB864D00A4D3A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0630783C29CB864900A4D3A8 = {
+			isa = PBXGroup;
+			children = (
+				0630784729CB864900A4D3A8 /* MainAnimatedView */,
+				0630785829CB864D00A4D3A8 /* MainAnimatedViewTests */,
+				0630786229CB864D00A4D3A8 /* MainAnimatedViewUITests */,
+				0630784629CB864900A4D3A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0630784629CB864900A4D3A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0630784529CB864900A4D3A8 /* MainAnimatedView.app */,
+				0630785529CB864D00A4D3A8 /* MainAnimatedViewTests.xctest */,
+				0630785F29CB864D00A4D3A8 /* MainAnimatedViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0630784729CB864900A4D3A8 /* MainAnimatedView */ = {
+			isa = PBXGroup;
+			children = (
+				067A8AC429CCCDCB006BB47E /* Info.plist */,
+				067A8A7B29CCCCCF006BB47E /* Poppins */,
+				0630784829CB864900A4D3A8 /* MainAnimatedViewApp.swift */,
+				0630784A29CB864900A4D3A8 /* ContentView.swift */,
+				0630784C29CB864C00A4D3A8 /* Assets.xcassets */,
+				0630784E29CB864C00A4D3A8 /* Preview Content */,
+			);
+			path = MainAnimatedView;
+			sourceTree = "<group>";
+		};
+		0630784E29CB864C00A4D3A8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0630784F29CB864C00A4D3A8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0630785829CB864D00A4D3A8 /* MainAnimatedViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				0630785929CB864D00A4D3A8 /* MainAnimatedViewTests.swift */,
+			);
+			path = MainAnimatedViewTests;
+			sourceTree = "<group>";
+		};
+		0630786229CB864D00A4D3A8 /* MainAnimatedViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0630786329CB864D00A4D3A8 /* MainAnimatedViewUITests.swift */,
+				0630786529CB864D00A4D3A8 /* MainAnimatedViewUITestsLaunchTests.swift */,
+			);
+			path = MainAnimatedViewUITests;
+			sourceTree = "<group>";
+		};
+		067A8A7B29CCCCCF006BB47E /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				067A8A7D29CCCCE8006BB47E /* Poppins-Black.ttf */,
+				067A8A8329CCCCE9006BB47E /* Poppins-BlackItalic.ttf */,
+				067A8A8A29CCCCEA006BB47E /* Poppins-Bold.ttf */,
+				067A8A8D29CCCCEA006BB47E /* Poppins-BoldItalic.ttf */,
+				067A8A8B29CCCCEA006BB47E /* Poppins-ExtraBold.ttf */,
+				067A8A8929CCCCEA006BB47E /* Poppins-ExtraBoldItalic.ttf */,
+				067A8A8129CCCCE9006BB47E /* Poppins-ExtraLight.ttf */,
+				067A8A8C29CCCCEA006BB47E /* Poppins-ExtraLightItalic.ttf */,
+				067A8A8629CCCCE9006BB47E /* Poppins-Italic.ttf */,
+				067A8A7F29CCCCE9006BB47E /* Poppins-Light.ttf */,
+				067A8A8729CCCCE9006BB47E /* Poppins-LightItalic.ttf */,
+				067A8A8829CCCCEA006BB47E /* Poppins-Medium.ttf */,
+				067A8A7C29CCCCE8006BB47E /* Poppins-MediumItalic.ttf */,
+				067A8A8529CCCCE9006BB47E /* Poppins-Regular.ttf */,
+				067A8A7E29CCCCE9006BB47E /* Poppins-SemiBold.ttf */,
+				067A8A8229CCCCE9006BB47E /* Poppins-SemiBoldItalic.ttf */,
+				067A8A8029CCCCE9006BB47E /* Poppins-Thin.ttf */,
+				067A8A8429CCCCE9006BB47E /* Poppins-ThinItalic.ttf */,
+			);
+			path = Poppins;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0630784429CB864900A4D3A8 /* MainAnimatedView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0630786929CB864D00A4D3A8 /* Build configuration list for PBXNativeTarget "MainAnimatedView" */;
+			buildPhases = (
+				0630784129CB864900A4D3A8 /* Sources */,
+				0630784229CB864900A4D3A8 /* Frameworks */,
+				0630784329CB864900A4D3A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MainAnimatedView;
+			productName = MainAnimatedView;
+			productReference = 0630784529CB864900A4D3A8 /* MainAnimatedView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0630785429CB864D00A4D3A8 /* MainAnimatedViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0630786C29CB864D00A4D3A8 /* Build configuration list for PBXNativeTarget "MainAnimatedViewTests" */;
+			buildPhases = (
+				0630785129CB864D00A4D3A8 /* Sources */,
+				0630785229CB864D00A4D3A8 /* Frameworks */,
+				0630785329CB864D00A4D3A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0630785729CB864D00A4D3A8 /* PBXTargetDependency */,
+			);
+			name = MainAnimatedViewTests;
+			productName = MainAnimatedViewTests;
+			productReference = 0630785529CB864D00A4D3A8 /* MainAnimatedViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0630785E29CB864D00A4D3A8 /* MainAnimatedViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0630786F29CB864D00A4D3A8 /* Build configuration list for PBXNativeTarget "MainAnimatedViewUITests" */;
+			buildPhases = (
+				0630785B29CB864D00A4D3A8 /* Sources */,
+				0630785C29CB864D00A4D3A8 /* Frameworks */,
+				0630785D29CB864D00A4D3A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0630786129CB864D00A4D3A8 /* PBXTargetDependency */,
+			);
+			name = MainAnimatedViewUITests;
+			productName = MainAnimatedViewUITests;
+			productReference = 0630785F29CB864D00A4D3A8 /* MainAnimatedViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0630783D29CB864900A4D3A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0630784429CB864900A4D3A8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					0630785429CB864D00A4D3A8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0630784429CB864900A4D3A8;
+					};
+					0630785E29CB864D00A4D3A8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0630784429CB864900A4D3A8;
+					};
+				};
+			};
+			buildConfigurationList = 0630784029CB864900A4D3A8 /* Build configuration list for PBXProject "MainAnimatedView" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0630783C29CB864900A4D3A8;
+			productRefGroup = 0630784629CB864900A4D3A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0630784429CB864900A4D3A8 /* MainAnimatedView */,
+				0630785429CB864D00A4D3A8 /* MainAnimatedViewTests */,
+				0630785E29CB864D00A4D3A8 /* MainAnimatedViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0630784329CB864900A4D3A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067A8A9429CCCCEA006BB47E /* Poppins-SemiBold.ttf in Resources */,
+				067A8A9A29CCCCEA006BB47E /* Poppins-Thin.ttf in Resources */,
+				067A8ABE29CCCCEA006BB47E /* Poppins-ExtraLightItalic.ttf in Resources */,
+				067A8AA329CCCCEA006BB47E /* Poppins-BlackItalic.ttf in Resources */,
+				067A8AA929CCCCEA006BB47E /* Poppins-Regular.ttf in Resources */,
+				067A8AA629CCCCEA006BB47E /* Poppins-ThinItalic.ttf in Resources */,
+				067A8A9729CCCCEA006BB47E /* Poppins-Light.ttf in Resources */,
+				067A8A9129CCCCEA006BB47E /* Poppins-Black.ttf in Resources */,
+				067A8AAC29CCCCEA006BB47E /* Poppins-Italic.ttf in Resources */,
+				067A8AB529CCCCEA006BB47E /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				067A8A9D29CCCCEA006BB47E /* Poppins-ExtraLight.ttf in Resources */,
+				067A8ABB29CCCCEA006BB47E /* Poppins-ExtraBold.ttf in Resources */,
+				067A8AB229CCCCEA006BB47E /* Poppins-Medium.ttf in Resources */,
+				067A8AAF29CCCCEA006BB47E /* Poppins-LightItalic.ttf in Resources */,
+				067A8AB829CCCCEA006BB47E /* Poppins-Bold.ttf in Resources */,
+				067A8AA029CCCCEA006BB47E /* Poppins-SemiBoldItalic.ttf in Resources */,
+				0630785029CB864C00A4D3A8 /* Preview Assets.xcassets in Resources */,
+				067A8A8E29CCCCEA006BB47E /* Poppins-MediumItalic.ttf in Resources */,
+				0630784D29CB864C00A4D3A8 /* Assets.xcassets in Resources */,
+				067A8AC129CCCCEA006BB47E /* Poppins-BoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0630785329CB864D00A4D3A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067A8A9E29CCCCEA006BB47E /* Poppins-ExtraLight.ttf in Resources */,
+				067A8A9529CCCCEA006BB47E /* Poppins-SemiBold.ttf in Resources */,
+				067A8A9229CCCCEA006BB47E /* Poppins-Black.ttf in Resources */,
+				067A8AB329CCCCEA006BB47E /* Poppins-Medium.ttf in Resources */,
+				067A8ABF29CCCCEA006BB47E /* Poppins-ExtraLightItalic.ttf in Resources */,
+				067A8AA129CCCCEA006BB47E /* Poppins-SemiBoldItalic.ttf in Resources */,
+				067A8AA429CCCCEA006BB47E /* Poppins-BlackItalic.ttf in Resources */,
+				067A8A8F29CCCCEA006BB47E /* Poppins-MediumItalic.ttf in Resources */,
+				067A8AB929CCCCEA006BB47E /* Poppins-Bold.ttf in Resources */,
+				067A8AC229CCCCEA006BB47E /* Poppins-BoldItalic.ttf in Resources */,
+				067A8AA729CCCCEA006BB47E /* Poppins-ThinItalic.ttf in Resources */,
+				067A8AB029CCCCEA006BB47E /* Poppins-LightItalic.ttf in Resources */,
+				067A8AAD29CCCCEA006BB47E /* Poppins-Italic.ttf in Resources */,
+				067A8AB629CCCCEA006BB47E /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				067A8ABC29CCCCEA006BB47E /* Poppins-ExtraBold.ttf in Resources */,
+				067A8A9829CCCCEA006BB47E /* Poppins-Light.ttf in Resources */,
+				067A8A9B29CCCCEA006BB47E /* Poppins-Thin.ttf in Resources */,
+				067A8AAA29CCCCEA006BB47E /* Poppins-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0630785D29CB864D00A4D3A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067A8A9F29CCCCEA006BB47E /* Poppins-ExtraLight.ttf in Resources */,
+				067A8A9629CCCCEA006BB47E /* Poppins-SemiBold.ttf in Resources */,
+				067A8A9329CCCCEA006BB47E /* Poppins-Black.ttf in Resources */,
+				067A8AB429CCCCEA006BB47E /* Poppins-Medium.ttf in Resources */,
+				067A8AC029CCCCEA006BB47E /* Poppins-ExtraLightItalic.ttf in Resources */,
+				067A8AA229CCCCEA006BB47E /* Poppins-SemiBoldItalic.ttf in Resources */,
+				067A8AA529CCCCEA006BB47E /* Poppins-BlackItalic.ttf in Resources */,
+				067A8A9029CCCCEA006BB47E /* Poppins-MediumItalic.ttf in Resources */,
+				067A8ABA29CCCCEA006BB47E /* Poppins-Bold.ttf in Resources */,
+				067A8AC329CCCCEA006BB47E /* Poppins-BoldItalic.ttf in Resources */,
+				067A8AA829CCCCEA006BB47E /* Poppins-ThinItalic.ttf in Resources */,
+				067A8AB129CCCCEA006BB47E /* Poppins-LightItalic.ttf in Resources */,
+				067A8AAE29CCCCEA006BB47E /* Poppins-Italic.ttf in Resources */,
+				067A8AB729CCCCEA006BB47E /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				067A8ABD29CCCCEA006BB47E /* Poppins-ExtraBold.ttf in Resources */,
+				067A8A9929CCCCEA006BB47E /* Poppins-Light.ttf in Resources */,
+				067A8A9C29CCCCEA006BB47E /* Poppins-Thin.ttf in Resources */,
+				067A8AAB29CCCCEA006BB47E /* Poppins-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0630784129CB864900A4D3A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0630784B29CB864900A4D3A8 /* ContentView.swift in Sources */,
+				0630784929CB864900A4D3A8 /* MainAnimatedViewApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0630785129CB864D00A4D3A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0630785A29CB864D00A4D3A8 /* MainAnimatedViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0630785B29CB864D00A4D3A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0630786429CB864D00A4D3A8 /* MainAnimatedViewUITests.swift in Sources */,
+				0630786629CB864D00A4D3A8 /* MainAnimatedViewUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0630785729CB864D00A4D3A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0630784429CB864900A4D3A8 /* MainAnimatedView */;
+			targetProxy = 0630785629CB864D00A4D3A8 /* PBXContainerItemProxy */;
+		};
+		0630786129CB864D00A4D3A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0630784429CB864900A4D3A8 /* MainAnimatedView */;
+			targetProxy = 0630786029CB864D00A4D3A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0630786729CB864D00A4D3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0630786829CB864D00A4D3A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0630786A29CB864D00A4D3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MainAnimatedView/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MainAnimatedView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IC.com.MainAnimatedView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0630786B29CB864D00A4D3A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MainAnimatedView/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MainAnimatedView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IC.com.MainAnimatedView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0630786D29CB864D00A4D3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IC.com.MainAnimatedViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MainAnimatedView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MainAnimatedView";
+			};
+			name = Debug;
+		};
+		0630786E29CB864D00A4D3A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IC.com.MainAnimatedViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MainAnimatedView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MainAnimatedView";
+			};
+			name = Release;
+		};
+		0630787029CB864D00A4D3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IC.com.MainAnimatedViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MainAnimatedView;
+			};
+			name = Debug;
+		};
+		0630787129CB864D00A4D3A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IC.com.MainAnimatedViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MainAnimatedView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0630784029CB864900A4D3A8 /* Build configuration list for PBXProject "MainAnimatedView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0630786729CB864D00A4D3A8 /* Debug */,
+				0630786829CB864D00A4D3A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0630786929CB864D00A4D3A8 /* Build configuration list for PBXNativeTarget "MainAnimatedView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0630786A29CB864D00A4D3A8 /* Debug */,
+				0630786B29CB864D00A4D3A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0630786C29CB864D00A4D3A8 /* Build configuration list for PBXNativeTarget "MainAnimatedViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0630786D29CB864D00A4D3A8 /* Debug */,
+				0630786E29CB864D00A4D3A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0630786F29CB864D00A4D3A8 /* Build configuration list for PBXNativeTarget "MainAnimatedViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0630787029CB864D00A4D3A8 /* Debug */,
+				0630787129CB864D00A4D3A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0630783D29CB864900A4D3A8 /* Project object */;
+}

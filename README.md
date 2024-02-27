@@ -7,7 +7,7 @@ https://github.com/iOS-Lab-UP/SmartUP-iOS
 https://github.com/iOS-Lab-UP/Smart-UP-Android
 
 ## BY
-- [@HeinrichGomTag - Hybrid Developer (Full-Stack Developer)](https://github.com/HeinrichGomTag) / [@kikinacademy](https://github.com/kikinacademy)
+- [@EnriqueGomezTagle - Hybrid Developer (Full-Stack Developer)](https://github.com/enriquegomeztagle) / [@kikinacademy](https://github.com/kikinacademy)
 - [@ivannatg - Swift Developer (Front-End Developer)](https://github.com/ivannatg)
 - [@saramirandaa - Swift Developer (Front-End Developer)](https://github.com/saramirandaa)
 - [@IvanCruzl - Swift Developer (Front-End Developer)](https://github.com/IvanCruzl)
